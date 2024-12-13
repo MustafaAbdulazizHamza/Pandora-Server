@@ -26,6 +26,9 @@
 
 # env file
 .env
+# Project files
 Pandora*
 server*
 Docker/*
+go.work
+go.work.sum

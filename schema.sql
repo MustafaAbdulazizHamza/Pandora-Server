@@ -1,0 +1,12 @@
+
+CREATE TABLE users (
+    userID INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE secrets (
+    secretID TEXT NOT NULL,
+    secret TEXT NOT NULL,
+    ownerID INTEGER NOT NULL 
+);
