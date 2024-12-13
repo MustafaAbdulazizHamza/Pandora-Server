@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MustafaAbdulazizHamza/Pandora/Structures"
+	"github.com/MustafaAbdulazizHamza/Pandora-Server/Structures"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"
 )

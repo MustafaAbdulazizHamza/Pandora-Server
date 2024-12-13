@@ -2,8 +2,8 @@ package main
 
 import (
 	"database/sql"
-	"github.com/MustafaAbdulazizHamza/Pandora/APIs"
-	"github.com/MustafaAbdulazizHamza/Pandora/Middleware"
+	"github.com/MustafaAbdulazizHamza/Pandora-Server/APIs"
+	"github.com/MustafaAbdulazizHamza/Pandora-Server/Middleware"
 	_ "github.com/mattn/go-sqlite3"
 
 	"github.com/gin-gonic/gin"

@@ -3,7 +3,7 @@ package APIs
 import (
 	"database/sql"
 	"fmt"
-	"github.com/MustafaAbdulazizHamza/Pandora/Structures"
+	"github.com/MustafaAbdulazizHamza/Pandora-Server/Structures"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
